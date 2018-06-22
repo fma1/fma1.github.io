@@ -1,65 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Guessing Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <!-- Bootstrap and CSS here-->
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1.0'>
+    <title>Fred Ma</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="/bundle.js"></script>
   </head>
   <body>
-
-      <div id='app' class='center container'>
-
-        <div id='headers' class="row">
-          <!-- Title and subtitles! -->
-          <h1 class="center">Guessing Game</h1>
-          <h3 class="center">Guess a number between 1-100</h3>
-        </div>
-
-        <div id='main' class="row">
-          <div id='input-parent'>
-            <!-- Player's guess input, and submit button -->
-            <input id="player-input" class="center" type="text" placeholder="#" maxlength='3' autofocus=autofocus>
-            <button id="submit" class="btn btn-success" type="button">Go!</button>
-          </div>
-
-          <div id='guesses' class="row">
-            <!-- unordered list of guesses -->
-            <ul class="center">
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-              <li class="guess">-</li>
-            </ul>  
-          </div>
-
-          <div id="menu-btns" class="row">
-            <!-- reset and hint buttons -->
-            <button type="button" class="btn-warning btn-xl" id="reset">Reset</button>
-            <button type="button" class="btn-info btn-xl" id="hint">Hint</button>
-          </div>
-        </div>
-      </div>
-
-
-
-    <div id='footer' class="center container">
-      <div class="row">
-            <div class='col-sm-4'>
-              <img src='fa-logo@2x.png'></img>
-            </div>
-
-            <div class='col-sm-4'>
-              <h4 id="footer-text">Project by Fred Ma</h4>
-            </div>
-
-            <div class='col-sm-4'>
-              <img src='grace_hopper_academy.png'></img>
-            </div>
-      </div>
-    </div>
-
+    <div id="app"></div>
   </body>
 </html>
+
